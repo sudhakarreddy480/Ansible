@@ -1,0 +1,12 @@
+- name: sudhakar
+  hosts: frontend
+  tasks:
+  - name: Play 01 and Task 01
+    ansible.builtin.debug:
+      msg: "hello from play 01 and task 01"
+
+  - name: Play 01 and Task 02
+    ansible.builtin.debug:
+      msg: "hello from play 01 and task 02"
+  
+  # this is example of single playbook with 2 tasks.
